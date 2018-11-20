@@ -1,18 +1,12 @@
 /* 300px and down */
 @media only screen and (max-width: 300px) {
     body{background-color: #CD0000;}
-    #medium{display: none;}
-    #large{display: none;}
 } 
 /* 300px and up) */
-@media only screen and (max-width: 768px) and (min-width: 300px) {
+@media only screen and (min-width: 300px) {
    body{ background-color:#2C5428;}
-   #small{display: none;}
-   #large{display: none;}
 } 
 /* 768px and up */
 @media only screen and (min-width: 768px) {
-   body{ background-color: #1A38BF;}
-   #small{display: none;}
-   #medium{display: none;}
+   body{background-color: #1A38BF;}
 }
