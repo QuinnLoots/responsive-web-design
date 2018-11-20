@@ -1,0 +1,12 @@
+/* 300px and down */
+@media only screen and (max-width: 300px) {
+    body{background-color: #CD0000;}
+} 
+/* 300px and up) */
+@media only screen and (min-width: 300px) {
+   body{ background-color:#2C5428;}
+} 
+/* 768px and up */
+@media only screen and (min-width: 768px) {
+   body{background-color: #1A38BF;}
+}
